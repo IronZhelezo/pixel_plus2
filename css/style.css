@@ -1,0 +1,174 @@
+* {
+    font-family: 'PT Sans', sans-serif; 
+    margin: 0 auto;
+    padding: 0;
+}
+.up li {
+    display: inline-block;
+    padding: 2px 8px 0 1px;
+    font-size: 22px;
+}
+html , body {
+    height: 100%;
+    background: white;
+}
+ul {
+
+    list-style-type: none;
+}
+header , .menu , .sliderfone , footer {
+    width: 100%;
+}
+
+a , li , .left , footer {
+    color: white;    
+}
+.phone , .right {
+    color: #777777;    
+}
+.logo , .left , .left_footer{
+    float: left;
+}
+.phone , .right , .right_footer{
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover , .link a {
+    text-decoration: underline;
+}
+
+.wrapper {
+    height: auto;
+    min-height: 100%;
+}
+
+header ,  .head {    
+    background: #dcdcdc;
+    min-height: 144px;
+}
+.menu , .item , .left , footer , .footer {
+    background: #777777;
+}
+.head , .item , .slider , .content , .footer {
+    width: 980px;
+    padding: 10px;
+}
+
+
+
+@font-face {
+    font-family:'Open Sans Condensed Light';
+    src:url(../fonts/OpenSans-CondLight.eot?) format('eot'),
+        url(../fonts/OpenSans-CondLight.woff) format('woff'),
+        url(../fonts/OpenSans-CondLight.svg#OpenSans-CondensedLight) format('svg'),
+        url(../fonts/OpenSans-CondLight.ttf) format('truetype');
+}
+.logo , .phone {
+    margin: 37px 139px;
+}
+ .phone p {
+    font-family: "Open Sans Condensed Light";
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    margin-bottom: -5px;
+}
+
+
+.menu , .item {
+    min-height: 37px;
+}
+.item {
+    margin: auto;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.sliderfone , .slider {
+    min-height: 267px;
+    background: #f8f8f8; 
+}
+.slider {
+    background-image: url("../img/sprite.png");
+    background-position: 0 -68px;
+}
+
+
+.internal {
+    padding: 11px 100px 0 140px;
+    min-height: 529px;
+}
+.left , .right {
+    min-height: 394px;
+    font: 12px/10px;
+}
+.left { 
+    padding: 6px 12px 0 23px;
+    width: 215px;
+}
+.right {
+    width: 434px;
+    padding: 5px 14px 0 38px;
+}
+.left h1 , .right h1 {
+    margin: 0;
+    font-size:  29px; 
+}
+.left p {
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+.left p {
+    margin: 16px 25px 18px 0;
+}
+.left span {
+    font-style: italic;
+}
+.news {
+    text-align: right;
+    padding-top: 3px;
+}
+.right p { 
+    font-size: 10px;
+    letter-spacing: 0.0245em;
+    line-height: 1.54;
+    margin: 12px 25px 18px 0;
+}
+
+.for_footer {
+    height: 138px;
+    clear: both; 
+}
+
+footer {
+    margin-top: -138px;
+}
+.foot {
+    min-height: 118px;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    padding: 21px 140px;
+    position: relative;
+}
+.right_footer {
+    background-image: url("../img/sprite.png");
+    background-position: -65px -372px;
+    height: 34px;
+    width: 128px;
+    padding-left : 38px;
+}
+.center_footer {
+    width: 692px;
+    min-height: 118px;
+    text-align: left;
+    position: absolute;
+    line-height: 1.86;
+}
+.center_footer ul {
+    margin-left: 250px;
+    margin-top: -1px;
+}
